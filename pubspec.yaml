@@ -1,0 +1,53 @@
+name: knowledge_queezy
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.5
+  flutter_riverpod: ^2.0.2
+  http: ^0.13.5
+  uuid: 3.0.6
+  intl: ^0.17.0
+  shared_preferences: ^2.0.15
+  url_launcher: ^6.1.6
+  icons_plus: ^3.0.0
+  path_provider: ^2.0.11
+  html_unescape: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.1
+  build_runner: ^2.2.1
+  json_serializable: ^6.3.2
+  freezed: ^2.1.0+1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/data/
+
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: fonts/Nunito-Black.ttf
+        - asset: fonts/Nunito-ExtraBold.ttf
+        - asset: fonts/Nunito-Bold.ttf
+        - asset: fonts/Nunito-SemiBold.ttf
+        - asset: fonts/Nunito-Medium.ttf
+        - asset: fonts/Nunito-Regular.ttf
+        - asset: fonts/Nunito-Light.ttf
